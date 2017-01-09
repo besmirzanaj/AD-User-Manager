@@ -1,0 +1,3 @@
+givenName,LastName,Mail,StreetAddress,City,PostalCode,Country,Company,department,samAccountName,Password,TargetOU,telephoneNumber,profilePath,homeDirectory,homeDrive
+Besmir,Zanaj,besmir.zanaj@domain.edu.al,Street 2,Vaughan,1001,AL,Company1,Department 2,besmir.zanaj,Password@123,"OU=staff,OU=users,OU=main-ou,DC=domain,DC=edu,DC=al",+35512323244,\\fileserver\profile\besmir.zanaj,\\fileserver\homedirs\besmir.zanaj,H:
+First,Last,first.last@domain.edu.al,Stree4,Tirane,1001,AL,Company1,Department 2,first.last,Password@124,"OU=staff,OU=users,OU=main-ou,DC=domain,DC=edu,DC=al",647-123-4321,\\firstlast\profile\first.last,\\fileserver\homedirs\first.last,H:

@@ -1,4 +1,4 @@
-## Script to automate bulc actions in AD
+## Script to automate bulk user insert or modify actions in AD
 ## Script need to be run from a DC server otherwise add -server option 
 ## Add all the users in the csv file 
 ## Define the TargetOU field in the CSV file to define where the user will be created

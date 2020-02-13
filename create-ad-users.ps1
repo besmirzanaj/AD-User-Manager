@@ -30,7 +30,7 @@ foreach ($User in $Users)  {
     $name=$User.givenName
     
     ##Create users command section, uncomment below line if needed to be run
-    #New-ADUser -EmailAddress "$mail" -StreetAddress "$street" -PostalCode "$po" -City "$city" -Country "$county" -Company "$company" -Department "$department"  -MobilePhone "$cel" -HomeDirector "$homedir" -HomeDrive "$homedrive" -Name "$Displayname" -DisplayName "$Displayname" -SamAccountName $SAM -UserPrincipalName $UPN -GivenName "$UserFirstname" -Surname "$UserLastname"  -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -Path "$OU" -ChangePasswordAtLogon $true –PasswordNeverExpires $false
+    New-ADUser -EmailAddress "$mail" -StreetAddress "$street" -PostalCode "$po" -City "$city" -Country "$county" -Company "$company" -Department "$department"  -MobilePhone "$cel" -HomeDirector "$homedir" -HomeDrive "$homedrive" -Name "$Displayname" -DisplayName "$Displayname" -SamAccountName $SAM -UserPrincipalName $UPN -GivenName "$UserFirstname" -Surname "$UserLastname"  -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -Path "$OU" -ChangePasswordAtLogon $true –PasswordNeverExpires $false
 
     ## Modify users Command Sectionm, uncomment below line if needed to be run
     #Get-ADUser -Identity $name  | Set-ADUser -GivenName "$UserFirstname" -Surname "$UserLastname" -DisplayName "$Displayname" 
